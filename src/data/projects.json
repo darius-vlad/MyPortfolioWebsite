@@ -1,26 +1,143 @@
 [
-  {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
-]
+    {
+      "title": "Codely - Practice Coding",
+      "imageSrc": "projects/codely_logo1.png",
+      "description": "This is a mobile app that is currently on the Google Play Store, meant to help pepople practice coding.",
+      "skills": ["Flutter", "Firebase", "GeminiAPI"],
+      "demo": "https://imgur.com/gallery/codely-demo-OhtMi7J",
+      "source": "https://sites.google.com/view/codely-source"
+    },
+    {
+       "title": "HoopFinder",
+       "imageSrc": "projects/hoopfinder_logo.png",
+       "description":"A mobile app created for basketball players that let's them find players on different courts",
+       "skills": [ "Directions API" , "Maps API"],
+       "demo": "https://imgur.com/a/aXUop8Z",
+       "source": "https://github.com/darius-vlad/HoopFinder"
+
+    },
+    {
+      "title": "Take Me Home",
+      "imageSrc": "projects/tmh.png",
+      "description": "A mobile app that lets the user see and report different dangers on a real time map.",
+      "skills": ["Flutter", "GoogleMapsAPI"],
+      "demo": "https://imgur.com/a/PSd3wOJ",
+      "source": "https://github.com/darius-vlad/TakeMeHome"
+    },
+    {
+      "title": "Orders Management System",
+      "imageSrc": "projects/java-order.png",
+      "description": "A java application that also uses MySql database meant to track online orders.",
+      "skills": ["Java", "MySql"],
+      "demo": "https://imgur.com/a/7EpLHQt",
+      "source": "https://github.com/darius-vlad/OrdersManagement---Java"
+    },
+    {
+      "title": "Queues Management System",
+      "imageSrc": "projects/queue.png",
+      "description": "A java application that uses threads to find the best strategy for managing queues.",
+      "skills": ["Java", "Threads"],
+      "demo": "https://imgur.com/a/LHLsTZG",
+      "source": "https://github.com/darius-vlad/QueueManagement-Java"
+    },
+    {
+      "title": "Polynomial Calculator",
+      "imageSrc": "projects/polynomial.png",
+      "description": "A java application created to learn regular expressions and practice java and mathematics skills.",
+      "skills": ["Java", "Regex"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Polynomial-Calculator"
+    },
+    {
+      "title": "Wordle",
+      "imageSrc": "projects/wordle-logo.png",
+      "description": "The popular web game wordle , created from scratch using HTML , CSS and JS.",
+      "skills": ["HTML", "CSS" , "JavaScript"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Wordle---HTML-CSS-JS"
+    },
+    {
+      "title": "Website for Codely",
+      "imageSrc": "projects/codely-web-logo.png",
+      "description": "A website I have created for my released mobile app Codely, created using React.",
+      "skills": ["React","HTML", "CSS" , "JavaScript"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Website-For-Mobile-App/tree/main"
+    },
+    {
+      "title": "Berkeley Pac-Man P1",
+      "imageSrc": "projects/pacman-p1.png",
+      "description": "Solved Pac-Man Project 1 (Artificial Intelligence) with full marks.",
+      "skills": ["Python","Search Algorithms", "Heuristics" , "AI"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Berkeley-Pac-Man-Project1"
+    },
+    {
+      "title": "Berkeley Pac-Man P2",
+      "imageSrc": "projects/pacman-p2.png",
+      "description": "Solved Pac-Man Project 2 (Artificial Intelligence) with full marks.",
+      "skills": ["Python","Multi Agent Search", "Algorithms" , "AI"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Berkeley-Pac-Man-Project2"
+    },
+
+    {
+      "title": "PL Matches Predictor",
+      "imageSrc": "projects/soccer-ai.png",
+      "description": "An AI model that predicts the outcome of future matches.",
+      "skills": ["Jupyter Notebook","WebScrapping", "Data Science" , "AI"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Tool-For-Footbal-Matches-Prediction-AI-Webscrapping-"
+    },
+
+    {
+      "title": "MIPS Single Cycle",
+      "imageSrc": "projects/mips-single.png",
+      "description": "MIPS Single Cycle on 32 bits created from scratch.",
+      "skills": ["VHDL","Microprocessor", "ISA"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/MIPS-32-SINGLE-CYLCE-VHDL"
+    },
+
+    {
+      "title": "MIPS Pipeline",
+      "imageSrc": "projects/mips-pipe.png",
+      "description": "MIPS Pipeline on 32 bits created from scratch with hazard detection.",
+      "skills": ["VHDL","Microprocessor", "Hazard Management"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/MIPS-32-PIPELINE-VHDL"
+    },
+    {
+      "title": "Small Scale 'Rocket' Launcher",
+      "imageSrc": "projects/arduino-rocket.png",
+      "description": "A simulation of an anti missle system implemented on an Arduino Uno.",
+      "skills": ["Arduino", "C/C++"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Low-Scale-Missle-Launcher-Arduino"
+    },
+    {
+      "title": "Locker with Pin Code",
+      "imageSrc": "projects/locker-pin.png",
+      "description": "A pin code system for lockers with password verification.",
+      "skills": ["VHDL","Circuit Simulation", "Basic Electronics"],
+      "demo": "https://imgur.com/a/aFPmRpH",
+      "source": "https://github.com/darius-vlad/Locker-With-PIN-Code-VHDL"
+    },
+    {
+      "title": "Flappy Bird - Unity",
+      "imageSrc": "projects/flappy_bird.png",
+      "description": "The classic flappy bird game created in Unity, with the game logic created from scratch.",
+      "skills": ["Unity", "C#","Game Design"],
+      "demo": "https://imgur.com/a/vcZCoJe",
+      "source": "https://github.com/darius-vlad/Flappy-Bird-Unity"
+    },
+   
+    {
+      "title": "MineSweeper in C",
+      "imageSrc": "projects/mines.png",
+      "description": "The main logic behind the classic MineSweeper game created in C, created as a project for school.",
+      "skills": ["C", "Libraries","Headers"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/darius-vlad/MineSweeper-in-C"
+    }
+  ]

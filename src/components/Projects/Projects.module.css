@@ -1,26 +1,65 @@
 @import "../../vars.css";
 
-.container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+.container
+{
+    margin-top:76px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
-.title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+.title
+{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
 }
 
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+.projects
+{
+    margin-top:37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    width:100%;
 }
+
+
+.swiperWrapper {
+    position: relative;
+  }
+  
+.projectsSwiper {
+    padding: 0 60px; 
+    overflow: visible; 
+}
+
+  
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff !important; 
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    position: absolute !important;
+    z-index: 10 !important;
+    cursor: pointer !important;
+}
+  
+.swiper-button-prev {
+    left: -75px !important;
+}
+  
+.swiper-button-next {
+    right: -75px !important; 
+}
+  
+
+  .swiper-button-prev::after, 
+  .swiper-button-next::after {
+    font-size: 45px !important; 
+  }
